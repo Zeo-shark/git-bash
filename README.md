@@ -1,5 +1,5 @@
 # git-bash
-enlist all git bash commands for user freindly
+enlist all git bash commands for user freindly :+1: :rocket: :sparkles:
 # git config 
   -__git config --global user.name  "SouravBear8850"__
   
@@ -24,24 +24,50 @@ enlist all git bash commands for user freindly
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/5-4.png)
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/6-3.png)
 # git commit
-![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/7-3.png)
+Usage: git commit -m “[ Type in the commit message]”  
 
+This command records or snapshots the file permanently in the version history.
+![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/7-3.png)
+Usage: git commit -a  
+
+This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/8-2.png)
 # git diff 
+Usage: git diff  
+
+This command shows the file differences which are not yet staged.
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/9-2.png)
+
+ Usage: git diff –staged 
+
+This command shows the differences between the files in the staging area and the latest version present.
+
+
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/10-2.png)
+
+Usage: git diff [first branch] [second branch]  
+
+This command shows the differences between the two branches mentioned.
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/43.png)
+
 # git reset
   -git reset--hard
   
   -git rest--soft
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/11-1.png)
   -git reset [commit]
+  Usage: git reset [commit]  
+
+This command undoes all the commits after the specified commit and preserves the changes locally.
 
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/14-1.png)
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/13-1.png)
 
 # git status
+
+Usage: git status  
+
+This command lists all the files that have to be committed.
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/07/15-1.png)
 # git rm
 Usage: git rm [file]  
